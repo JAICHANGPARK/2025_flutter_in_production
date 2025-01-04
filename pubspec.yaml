@@ -5,7 +5,8 @@ environment:
   sdk: ^3.6.0
 
 workspace:
-  - packages/domain
+  - apps/client_app
+  - apps/packages/domain
   # - packages/client_package
   # - packages/server_package
 
