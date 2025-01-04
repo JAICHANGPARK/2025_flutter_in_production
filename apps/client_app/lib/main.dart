@@ -19,18 +19,3 @@ class MainApp extends StatelessWidget {
     );
   }
 }
-
-class DomainWidget extends StatefulWidget {
-  const DomainWidget({super.key});
-
-  @override
-  State<DomainWidget> createState() => _DomainWidgetState();
-}
-
-class _DomainWidgetState extends State<DomainWidget> {
-  
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold();
-  }
-}
