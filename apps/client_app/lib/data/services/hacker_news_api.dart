@@ -5,11 +5,11 @@ import 'package:retrofit/retrofit.dart';
 
 part 'hacker_news_api.g.dart';
 
-@RestApi(baseUrl: 'https://api.hnpwa.com/v0/news/1.json')
+@RestApi(baseUrl: 'https://api.hnpwa.com/v0/news.json')
 abstract class HackerNewsApiClient {
   factory HackerNewsApiClient(Dio dio, {String? baseUrl}) =
       _HackerNewsApiClient;
 
-  @GET('/')
+  @GET('')
   Future<List<Hn>> getNews();
 }
