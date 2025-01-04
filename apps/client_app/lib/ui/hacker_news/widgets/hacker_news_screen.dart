@@ -9,7 +9,7 @@ class HackerNewsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('User Screen'),
+        title: const Text('Hacker News'),
       ),
       backgroundColor: Colors.white,
       body: NewsListWidget(),

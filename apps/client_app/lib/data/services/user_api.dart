@@ -1,5 +1,4 @@
-
-import 'package:client_app/domain/models/user.dart';
+import 'package:client_app/domain/models/user/user.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 
