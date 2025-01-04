@@ -8,5 +8,6 @@ part 'hn_repository.g.dart';
 @riverpod
 HackerNewsApiClient hnRepository(Ref ref) {
   final dio = ref.read(dioProvider);
-  return HackerNewsApiClient(dio);
+  return HackerNewsApiClient(dio,
+      baseUrl: "https://api.hnpwa.com/v0/news.json");
 }
