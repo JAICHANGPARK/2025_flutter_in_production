@@ -14,7 +14,7 @@ class _HackerNewsApiClient implements HackerNewsApiClient {
     this.baseUrl,
     this.errorLogger,
   }) {
-    baseUrl ??= 'https://api.hnpwa.com/v0/news/1.json';
+    baseUrl ??= 'https://api.hnpwa.com/v0/news.json';
   }
 
   final Dio _dio;
@@ -36,7 +36,7 @@ class _HackerNewsApiClient implements HackerNewsApiClient {
     )
         .compose(
           _dio.options,
-          '/',
+          '',
           queryParameters: queryParameters,
           data: _data,
         )
