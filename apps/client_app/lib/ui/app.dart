@@ -1,6 +1,8 @@
 import 'package:client_app/ui/user/widgets/user_screen.dart';
 import 'package:flutter/material.dart';
 
+import 'hacker_news/widgets/hacker_news_screen.dart';
+
 class App extends StatefulWidget {
   const App({super.key});
 
@@ -17,6 +19,7 @@ class _AppState extends State<App> {
         index: currentPage,
         children: [
           UserScreen(),
+          HackerNewsScreen(),
         ],
       ),
       bottomNavigationBar: NavigationBar(
