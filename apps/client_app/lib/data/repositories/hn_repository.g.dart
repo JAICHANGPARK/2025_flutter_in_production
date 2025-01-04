@@ -6,7 +6,7 @@ part of 'hn_repository.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$hnRepositoryHash() => r'c7ba5ef736f2eb11452935ab572b480336068fae';
+String _$hnRepositoryHash() => r'f42510db4b5f0234858e043d6fdc54d8adfba8c3';
 
 /// See also [hnRepository].
 @ProviderFor(hnRepository)
