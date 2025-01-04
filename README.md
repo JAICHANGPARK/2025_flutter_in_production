@@ -1,4 +1,5 @@
 # 2025_flutter_in_production
+## Pub workspaces로 monorepo 구성하기 
 
 <img width="612" alt="image" src="https://github.com/user-attachments/assets/9a5e50b7-d3a3-44cb-821c-407acd8d7212" />
 
