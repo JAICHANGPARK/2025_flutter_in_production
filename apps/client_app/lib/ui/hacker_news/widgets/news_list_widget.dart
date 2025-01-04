@@ -1,5 +1,5 @@
 import 'package:client_app/ui/hacker_news/view_model/hacker_news_view_model.dart';
-import 'package:client_app/ui/user/view_model/user_view_model.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

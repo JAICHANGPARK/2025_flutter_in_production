@@ -1,6 +1,5 @@
-import 'package:client_app/domain/models/hacker_news/hn.dart';
-import 'package:client_app/domain/models/user/user.dart';
 import 'package:dio/dio.dart';
+import 'package:domain/hacker_news/hn.dart';
 import 'package:retrofit/retrofit.dart';
 
 part 'hacker_news_api.g.dart';

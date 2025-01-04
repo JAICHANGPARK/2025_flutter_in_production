@@ -1,5 +1,5 @@
-import 'package:client_app/data/repositories/hn_repository.dart';
-import 'package:client_app/domain/models/hacker_news/hn.dart';
+import 'package:data/repositories/hn_repository.dart';
+import 'package:domain/domain.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 

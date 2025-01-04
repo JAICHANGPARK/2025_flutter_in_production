@@ -1,5 +1,5 @@
-import 'package:client_app/data/repositories/user_repository.dart';
-import 'package:client_app/domain/models/user/user.dart';
+import 'package:data/repositories/user_repository.dart';
+import 'package:domain/user/user.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
