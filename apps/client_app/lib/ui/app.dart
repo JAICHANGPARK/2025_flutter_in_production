@@ -3,6 +3,15 @@ import 'package:flutter/material.dart';
 
 import 'hacker_news/widgets/hacker_news_screen.dart';
 
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(home: App());
+  }
+}
+
 class App extends StatefulWidget {
   const App({super.key});
 
