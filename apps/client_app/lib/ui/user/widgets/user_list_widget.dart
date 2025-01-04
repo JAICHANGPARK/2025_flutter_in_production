@@ -10,17 +10,17 @@ class UserListWidget extends ConsumerWidget {
     final users = ref.watch(fetchUsersProvider);
     return switch (users) {
       AsyncData(:final value) => ListView.builder(
-        itemCount: value.length,
-        itemBuilder: (context, index) {
-          final user = value[index];
-          return ListTile(
-            title: Text(user.name ?? ""),
-            subtitle: Text(user.email ?? ""),
-          );
-        },
-      ),
+          itemCount: value.length,
+          itemBuilder: (context, index) {
+            final user = value[index];
+            return ListTile(
+              title: Text(user.name ?? ""),
+              subtitle: Text(user.email ?? ""),
+            );
+          },
+        ),
       AsyncError() => const Text('Oops, something unexpected happened'),
-      _ => const CircularProgressIndicator(),
+      _ => const CircularProgressIndicator.adaptive(),
     };
   }
 }
