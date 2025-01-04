@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'user_list_widget.dart';
+
 class UserScreen extends StatelessWidget {
   const UserScreen({super.key});
 
@@ -10,7 +12,8 @@ class UserScreen extends StatelessWidget {
         title: const Text('User Screen'),
       ),
       backgroundColor: Colors.white,
-      body: ,
+      body: UserListWidget(),
+      
     );
   }
 }
